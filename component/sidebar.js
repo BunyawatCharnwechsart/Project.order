@@ -11,16 +11,16 @@ class sidebar extends HTMLElement {
                 <a href="/index.html"><img src="/JPG/Drinkicon.png"alt="Drinkicon"></a>
             </div>
             <div class="icon">
-                <a href="/Main/menudessert.html"><img src="/JPG/Desserticon.png"alt="Desserticon"></a>
+                <a href="/main/menudessert.html"><img src="/JPG/Desserticon.png"alt="Desserticon"></a>
             </div>
             <div class="icon">
-                <a href="/Main/menufood.html"><img src="/JPG/Foodicon.png"alt="Foodicon"></a>
+                <a href="/main/menufood.html"><img src="/JPG/foodicon.png.png"alt="Foodicon"></a>
             </div>
             <div class="icon">
-                <a href="/Main/menucart.html"><img src="/JPG/Carticon.png"alt="Carticon"></a>
+                <a href="/main/menucart.html><img src="/JPG/carticon.png"alt="Carticon"></a>
             </div>
             <div class="icon">
-                <a href="/Main/menubill.html"><img src="/JPG/bill.png"alt="Billicon"></a>
+                <a href="/main/menubill.html"><img src="/JPG/bill.png"alt="Billicon"></a>
             </div>
         </nav>
     </aside>
