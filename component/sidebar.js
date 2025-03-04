@@ -8,7 +8,7 @@ class sidebar extends HTMLElement {
         </div>
         <nav>
             <div class="icon">
-                <a href="/Main/index.html"><img src="/JPG/Drinkicon.png"alt="Drinkicon"></a>
+                <a href="/index.html"><img src="/JPG/Drinkicon.png"alt="Drinkicon"></a>
             </div>
             <div class="icon">
                 <a href="/Main/menudessert.html"><img src="/JPG/Desserticon.png"alt="Desserticon"></a>
