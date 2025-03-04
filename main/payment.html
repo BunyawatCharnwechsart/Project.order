@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="/css/payment.css">
+</head>
+<body>
+    <div class="container">
+        <main-sidebar></main-sidebar>
+        
+        <main>
+            <div class="payment-box">
+                <h1>บิลค่าอาหาร</h1>
+                
+                <div class="bill-list">
+                    <div class="bill-item">
+                        <span class="qty">X1</span>
+                        <span class="name">********</span>
+                        <span class="price">** ฿</span>
+                    </div>
+                    <div class="bill-item">
+                        <span class="qty">X1</span>
+                        <span class="name">********</span>
+                        <span class="price">** ฿</span>
+                    </div>
+                    <div class="bill-item">
+                        <span class="qty">X1</span>
+                        <span class="name">**************</span>
+                        <span class="price">** ฿</span>
+                    </div>
+                </div>
+
+                <h2>ชำระเงิน</h2>
+
+                <div class="alert">
+                    <span class="warning-icon">⚠️</span>
+                    <span>ชำระเงินค่าอาหาร เมื่อคุณทานเสร็จเรียบร้อยเท่านั้น</span>
+                </div>
+
+                <div class="payment-method">
+                    <label class="radio-btn">
+                        <input type="radio" name="payment" checked>
+                        <span>ชำระเงินกับพนักงาน</span>
+                    </label>
+                </div>
+
+                <button class="continue-btn" onclick="window.location.href='/main/successpayment.html';">ดำเนินการต่อ</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="/component/sidebar.js"></script>
+</body>
+</html>

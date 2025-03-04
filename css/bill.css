@@ -1,0 +1,151 @@
+@font-face {
+    font-family: inter;
+    src: url(/fontinter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+    font-family: inter;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+aside {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: bisque;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.icon {
+    margin: 2em 0em;
+    display: flex;
+    justify-content: center;
+}
+
+.icon:hover {
+    background-color: rgb(251, 251, 251);
+    border-right: #ff66a3 0.5em solid;
+}
+
+.main-container {
+    display: flex;
+    width: 50%;
+}
+
+.head {
+    margin: 4em 0em 1em 6em;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 2em;
+    margin-left: 6em;
+    gap: 8em;
+}
+
+.food-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.food-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-text {
+    width: 80px;
+}
+
+.food-price {
+    font-weight: bold;
+}
+
+.status-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.done {
+    background-color: rgb(23, 189, 23);
+    width: 80px;
+    height: 50px;
+}
+
+.pending {
+    background-color: orange;
+}
+
+.right {
+    margin: 10em;
+
+}
+
+.receipt-container {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.divider {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.total {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.pay-button {
+    width: 100%;
+    background: #ff66a3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.pay-button:hover {
+    background: #ff3385;
+}

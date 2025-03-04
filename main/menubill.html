@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Menu</title>
+    <link rel="stylesheet" href="/css/bill.css">
+</head>
+<body>
+    
+    <div class="container">
+
+    <main-sidebar></main-sidebar>
+    
+    <main class="main-container">
+        <div class="left">
+            <div class="head">
+                <h1>Bill</h1>
+            </div>
+            <div class="content">
+                <div id="menu"></div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="receipt-container">
+                <h2>Total</h2>
+                <div class="item">
+                    <span>Thai tea:</span>
+                    <span>40 THB</span>
+                </div>               
+                <div class="divider"></div>
+                <div class="item total">
+                    <span>ราคารวม:</span>
+                    <span>40 THB</span>
+                </div>
+                <button class="pay-button" onclick="payNow()">ชำระเงิน</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="/component/sidebar.js"></script>
+    <script src="/component/ิbill.js"></script>
+</body>
+</html>

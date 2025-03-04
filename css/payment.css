@@ -1,0 +1,118 @@
+@font-face {
+    font-family: inter;
+    src: url(/fontinter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+    font-family: inter;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+aside {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: bisque;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.icon {
+    margin: 2em 0em;
+    display: flex;
+    justify-content: center;
+}
+
+.icon:hover {
+    background-color: rgb(251, 251, 251);
+    border-right: #ff66a3 0.5em solid;
+}
+
+main {
+    display: flex;
+    margin: 2em 2em 2em 30em;
+}
+
+.payment-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.bill-list {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.bill-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.qty {
+    color: orange;
+    font-weight: bold;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    background: #ffdde1;
+    color: #d9534f;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.warning-icon {
+    margin-right: 8px;
+}
+
+.payment-method {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.radio-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.continue-btn {
+    width: 100%;
+    background: #ff66a3;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.continue-btn:hover {
+    background: #ff4d8c;
+}

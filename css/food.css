@@ -1,0 +1,79 @@
+@font-face {
+    font-family: inter;
+    src: url(/fontinter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+    font-family: inter;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+aside {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: bisque;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.icon {
+    margin: 2em 0em;
+    display: flex;
+    justify-content: center;
+}
+
+.icon:hover {
+    background-color: rgb(251, 251, 251);
+    border-right: #ff66a3 0.5em solid;
+}
+
+main h1 {
+    margin: 1em 0em 1em 2em;
+}
+
+.products-container {
+    margin-left: 4em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+
+.products-item {
+    display: grid;
+    border: 20px;
+    border-color: black;
+    place-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: outline 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+main {
+    margin: 1em 2em 2em 2em;
+}
+
+.products-item:hover {
+    outline: 3px solid rgba(255, 165, 0, 0.8);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.products-img {
+    margin: 10px;
+}
+
+.products-name {
+    text-align: center;
+    margin-bottom: 1em;
+}
